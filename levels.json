@@ -69,61 +69,61 @@
         "terrains": [
             {
                 "x": 0,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 1,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 2,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 3,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 4,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 5,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 6,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 7,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 8,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
             {
                 "x": 9,
-                "y": 2,
+                "y": 4,
                 "name": "brook"
             },
             
@@ -134,5 +134,648 @@
             }
         ],
         "story": "毛球羊非常想吃到胡萝卜，即使跨过山和小河也要\n吃到他。"
+    },
+    
+    {
+        "furball": {
+            "x": 0,
+            "y": 2
+        },
+        "carrots": [
+            {
+                "x": 0,
+                "y": 3
+            },
+            {
+                "x": 0,
+                "y": 4
+            },
+            {
+                "x": 7,
+                "y": 6
+            },
+            {
+            	  "x": 9,
+            	  "y": 1
+            }
+        ],
+        "terrains": [
+            {
+                "x": 2,
+                "y": 0,
+                "name": "spike"
+            },
+            
+            {
+                "x": 2,
+                "y": 1,
+                "name": "spike"
+            },
+            
+            {
+                "x": 2,
+                "y": 2,
+                "name": "spike"
+            },
+            
+            {
+                "x": 2,
+                "y": 3,
+                "name": "spike"
+            },
+            
+            {
+                "x": 2,
+                "y": 4,
+                "name": "spike"
+            },
+            
+            {
+                "x": 2,
+                "y": 5,
+                "name": "spike"
+            },
+            
+            {
+                "x": 2,
+                "y": 6,
+                "name": "spike"
+            },
+            
+            {
+                "x": 2,
+                "y": 7,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 0,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 1,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 2,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 3,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 4,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 5,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 6,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 7,
+                "name": "spike"
+            },
+            
+            
+            {
+                "x": 6,
+                "y": 0,
+                "name": "spike"
+            },
+            
+            {
+                "x": 6,
+                "y": 1,
+                "name": "spike"
+            },
+            
+            {
+                "x": 6,
+                "y": 2,
+                "name": "spike"
+            },
+            
+            {
+                "x": 6,
+                "y": 3,
+                "name": "spike"
+            },
+            
+            {
+                "x": 6,
+                "y": 4,
+                "name": "spike"
+            },
+            
+            {
+                "x": 6,
+                "y": 5,
+                "name": "spike"
+            },
+            
+            {
+                "x": 6,
+                "y": 6,
+                "name": "spike"
+            },
+            
+            {
+                "x": 6,
+                "y": 7,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 0,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 1,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 2,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 3,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 4,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 5,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 6,
+                "name": "spike"
+            },
+            
+            {
+                "x": 8,
+                "y": 7,
+                "name": "spike"
+            }
+            
+        ],
+        "story": "忘了说了，毛球羊啥都怕。。。"
+    },
+    
+    {
+    	  "furball": {
+            "x": 4,
+            "y": 7
+        },
+        "carrots": [
+            {
+                "x": 2,
+                "y": 2
+            },
+            {
+                "x": 4,
+                "y": 2
+            },
+            {
+                "x": 6,
+                "y": 2
+            },
+            {
+                "x": 6,
+                "y": 6
+            },
+            {
+                "x": 6,
+                "y": 7
+            }
+        ],
+        "terrains": [
+            {
+                "x": 0,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 2,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 3,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 4,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 5,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 7,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+            	  "x": 9,
+            	  "y": 5,
+            	  "name": "brook"
+            },
+            
+            {
+                "x": 0,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 2,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 3,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 4,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 5,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 7,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+            	  "x": 9,
+            	  "y": 4,
+            	  "name": "brook"
+            },
+            
+            {
+                "x": 0,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 2,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 3,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 4,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 5,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 7,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 9,
+                "y": 3,
+                "name": "brook"
+            },
+            
+            {
+                "x": 1,
+                "y": 2,
+                "name": "spike"
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 2,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 3,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 3,
+                "y": 2,
+                "name": "spike"
+            },
+            
+            {
+                "x": 4,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 5,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 5,
+                "y": 2,
+                "name": "spike"
+            },
+            {
+                "x": 6,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 7,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 8,
+                "y": 1,
+                "name": "spike"
+            },
+            {
+                "x": 8,
+                "y": 2,
+                "name": "spike"
+            }
+        ],
+        "story": "有的时候毛球羊也会想，他这么做值得吗？"
+    },
+    
+    {
+        "furball": {
+            "x": 0,
+            "y": 0
+        },
+        "carrots": [
+            {
+                "x": 8,
+                "y": 4
+            }
+        ],
+        "terrains": [
+            {
+                "x": 1,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 2,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 3,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 4,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 5,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 7,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 1,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 2,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 6,
+                "name": "brook"
+            },
+            {
+                "x": 8,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 7,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 5,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 4,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 3,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 2,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 7,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 6,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 5,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 1,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 2,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 3,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 4,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 5,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 3,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 4,
+                "name": "brook"
+            },
+            {
+                "x": 6,
+                "y": 5,
+                "name": "brook"
+            }
+        ],
+        "story": "他或许知道，或许不知道。\n毛球羊心无旁骛。"
     }
 ]
