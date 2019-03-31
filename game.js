@@ -339,7 +339,7 @@ function gameLoop() {
       newFurball.alive = true;
       stuffs.push(newFurball);
       levelCarrots = 0;
-      carrotsToNextFurball += 2;
+      carrotsToNextFurball += 1;
     }
   }
   
@@ -369,14 +369,14 @@ gameCanvas.ontouchstart = function(e) {
         (fakePos.y + 0.01 < sheep.y) ||
         (sheep.y + 1.0 < fakePos.y))) {
           dPos = {
-            x: sheep.x - fakePos.x,
-            y: sheep.y - fakePos.y
+            x: 0.5,
+            y: 0.5
           };
           bond = stuffs[i];
       }
     }
   }
-}
+};
 
 gameCanvas.ontouchend = function(e) {
   let touch = e.touches[0];
