@@ -32,10 +32,12 @@ let levels = [];
 let curLvl = 0;
 let bond = null;
 let totalCarrots = 0;
+let prevTotalCarrots = 0;
 let levelCarrots = 0;
 let crashed = null;
 let line = null;
 let dPos = null;
+let carrotsToNextFurball = 2;
 
 function log(what) {
   logger.value += "\n" + what;
@@ -47,7 +49,10 @@ function isReady() {
 
 function initLevel(advance) {
   if (advance) {
+    prevTotalCarrots = totalCarrots;
     curLvl++;
+  } else {
+    totalCarrots = prevTotalCarrots;
   }
   
   stuffs = [];
@@ -56,6 +61,7 @@ function initLevel(advance) {
   line = null;
   dPos = null;
   crashed = null;
+  carrotsToNextFurball = 2;
   
   let lvl = levels[curLvl];
   let mainFurball = stuff(furball, "furball", lvl.furball.x, lvl.furball.y);
@@ -325,16 +331,15 @@ function gameLoop() {
       totalCarrots++;
       levelCarrots++;
       crashed.who.carrots++;
-    } else if (crashed.what.name == "spike" || crashed.what.name == "brook") {
-      
     }
     
-    if (levelCarrots % 2 == 0 && levelCarrots != 0) {
+    if (levelCarrots % carrotsToNextFurball == 0 && levelCarrots != 0) {
       let newFurball = stuff(crashed.who.sprite, crashed.who.name, crashed.who.x, crashed.who.y);
       newFurball.carrots = 0;
       newFurball.alive = true;
       stuffs.push(newFurball);
       levelCarrots = 0;
+      carrotsToNextFurball += 2;
     }
   }
   
