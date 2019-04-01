@@ -369,8 +369,8 @@ gameCanvas.ontouchstart = function(e) {
         (fakePos.y + 0.01 < sheep.y) ||
         (sheep.y + 1.0 < fakePos.y))) {
           dPos = {
-            x: 0.5,
-            y: 0.5
+            x: sheep.x - fakePos.x,
+            y: sheep.y - fakePos.y,
           };
           bond = stuffs[i];
       }
@@ -406,8 +406,8 @@ gameCanvas.ontouchmove = function(e) {
       // crashed a dead furball!
       
       let furballRealPos = reallify(crashed.who.x, crashed.who.y);
-      furballRealPos.x -= texSize.width * dPos.x;
-      furballRealPos.y -= texSize.height * dPos.y;
+      furballRealPos.x += texSize.width * 0.5;
+      furballRealPos.y += texSize.height * 0.5;
       line = [
         realPos,
         furballRealPos
