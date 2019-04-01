@@ -339,7 +339,7 @@ function gameLoop() {
       newFurball.alive = true;
       stuffs.push(newFurball);
       levelCarrots = 0;
-      carrotsToNextFurball += 1;
+      carrotsToNextFurball += 0.1;
     }
   }
   
