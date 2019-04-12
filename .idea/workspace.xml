@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b73e2112-6997-4f55-93dd-fe8afffd1a9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/levels.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,13 +21,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="410" selection-start-line="410" selection-end-line="410" />
+            <state relative-caret-position="-413">
+              <caret line="117" selection-start-line="117" selection-end-line="187" selection-end-column="1" />
+              <folding>
+                <element signature="e#2209#4009#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -48,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/levels.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -80,6 +83,7 @@
       <find>carrot.png</find>
       <find>&lt;&lt;</find>
       <find>&lt;&lt;&lt;&lt;</find>
+      <find>levels.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,9 +92,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/levels.txt" />
         <option value="$PROJECT_DIR$/game.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/levels.txt" />
       </list>
     </option>
   </component>
@@ -162,12 +166,12 @@
       <workItem from="1554017294738" duration="5092000" />
       <workItem from="1554042438053" duration="1906000" />
       <workItem from="1555058592615" duration="15000" />
-      <workItem from="1555058732966" duration="761000" />
+      <workItem from="1555058732966" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8056000" />
+    <option name="totallyTimeSpent" value="8174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -205,24 +209,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/levels.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/levels.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2918">
           <caret line="778" column="40" selection-start-line="778" selection-start-column="18" selection-end-line="778" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="410" selection-start-line="410" selection-end-line="410" />
         </state>
       </provider>
     </entry>
@@ -233,6 +223,23 @@
           <folding>
             <element signature="n#style#0;n#textarea#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="117" selection-start-line="117" selection-end-line="187" selection-end-column="1" />
+          <folding>
+            <element signature="e#2209#4009#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/levels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
