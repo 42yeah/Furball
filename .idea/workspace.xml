@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="372" column="34" selection-start-line="372" selection-start-column="34" selection-end-line="372" selection-end-column="34" />
+            <state relative-caret-position="282">
+              <caret line="410" selection-start-line="410" selection-end-line="410" />
             </state>
           </provider>
         </entry>
@@ -79,6 +79,7 @@
       <find>+= 1</find>
       <find>carrot.png</find>
       <find>&lt;&lt;</find>
+      <find>&lt;&lt;&lt;&lt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,12 +162,12 @@
       <workItem from="1554017294738" duration="5092000" />
       <workItem from="1554042438053" duration="1906000" />
       <workItem from="1555058592615" duration="15000" />
-      <workItem from="1555058732966" duration="624000" />
+      <workItem from="1555058732966" duration="700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7919000" />
+    <option name="totallyTimeSpent" value="7995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -230,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="372" column="34" selection-start-line="372" selection-start-column="34" selection-end-line="372" selection-end-column="34" />
+        <state relative-caret-position="282">
+          <caret line="410" selection-start-line="410" selection-end-line="410" />
         </state>
       </provider>
     </entry>

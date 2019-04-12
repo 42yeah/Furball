@@ -406,13 +406,9 @@ gameCanvas.ontouchmove = function(e) {
       // crashed a dead furball!
       
       let furballRealPos = reallify(crashed.who.x, crashed.who.y);
-<<<<<<< HEAD
-      furballRealPos.x -= texSize.width * 0.5;
-      furballRealPos.y -= texSize.height * 0.5;
-=======
       furballRealPos.x += texSize.width * 0.5;
       furballRealPos.y += texSize.height * 0.5;
->>>>>>> cd9e25872262ddbb57023e09d2029619bb09b167
+
       line = [
         realPos,
         furballRealPos
