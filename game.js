@@ -468,7 +468,7 @@ grass.src = "grass.png";
 grass.addEventListener("load", seeIfReadyToGo);
 furball.src = "furball.png";
 furball.addEventListener("load", seeIfReadyToGo);
-carrot.src = "carrot.png";
+carrot.src = "cake.png";
 carrot.addEventListener("load", seeIfReadyToGo);
 spike.src = "spike.png";
 spike.addEventListener("load", seeIfReadyToGo);
