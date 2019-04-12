@@ -370,11 +370,7 @@ gameCanvas.ontouchstart = function(e) {
         (sheep.y + 1.0 < fakePos.y))) {
           dPos = {
             x: sheep.x - fakePos.x,
-<<<<<<< HEAD
             y: sheep.y - fakePos.y
-=======
-            y: sheep.y - fakePos.y,
->>>>>>> cd9e25872262ddbb57023e09d2029619bb09b167
           };
           bond = stuffs[i];
       }
